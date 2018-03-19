@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Lucky Parmar",
+		"age": 30,
+		"company": "Narola infotech Solution LLP",
+		"lang": "node.js"
+	},
+	{
+		"name": "Shambhu Chauhan",
+		"age": 27,
+		"company": "Narola infotech Solution LLP 1",
+		"lang": "react.js"
+	},
+	{
+		"name": "Manoj Gohil",
+		"age": 26,
+		"company": "Narola infotech Pvt Ltd",
+		"lang": "express.js"
+	},
+	{
+		"name": "Alpesh Rajodiya",
+		"age": 26,
+		"company": "Narola",
+		"lang": "Angularjs"
+	}
+]

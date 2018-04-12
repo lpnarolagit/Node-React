@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title> First React App </title>
+		<style>
+		.person{
+		  border: 1px solid red;
+		  box-shadow: 1px 2px 5px 0px;
+		  display: inline-block;
+		  padding: 20px
+		}
+		</style>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.development.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+		
+	</head>
+	<body>
+		<div id="b1"></div>
+		<div id="b2"></div>
+
+		<div class="app"></div>
+	</body>
+	<script type="text/babel">
+		function Person(Props){
+		  return (<div className="person">
+		  <h1>{Props.name}</h1>
+		  <p>{Props.age}</p>
+		</div>);
+		}
+		ReactDOM.render(<Person name="Lucky" age="30" />,document.querySelector('#b1'));
+		ReactDOM.render(<Person name="Ashok" age="60" />,document.querySelector('#b2'));
+
+		var app = (
+		  <div>
+			  <Person name="React" age="10" />
+				<Person name="Node" age="17" />
+			</div>
+		);
+		ReactDOM.render(app,document.querySelector('.app'));
+		</script>
+</html>

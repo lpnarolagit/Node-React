@@ -47,6 +47,7 @@ class App extends Component {
 		age={this.state.persons[1].age}
 		click={this.switchButtonHandler.bind(this, 'Lucky!')}>My Hobbies: Dancing</Person>
 		<Person name={this.state.persons[2].name} age={this.state.persons[2].age} />
+		<p></p>
       </div>
     );
 	// return React.createElement('div',{className: 'App'}, React.createElement('h1', null, 'Core Code..'));
